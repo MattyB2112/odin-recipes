@@ -1,0 +1,73 @@
+.title {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: grey;
+}
+
+.title1 {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: grey;
+}
+
+.flex-container {
+    width: 800px;
+    display: flex;
+    flex: 1;
+    align-items:center;    
+}
+
+.flex-container2 {
+    width: 800px;
+    display: flex;
+    flex: 1;    
+}
+
+.flex-one {
+    font-size: 30px;
+    display: flex;
+    flex: 1;
+    border: 5px solid blue;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flex-one-item1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    background-color: aquamarine;
+}
+
+.flex-container > .flex-three {
+    font-size: 30px;
+    display: flex;
+    flex: 1;
+    border: 5px solid blue;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-container2 > .flex-four {
+    font-size: 30px;
+    display: flex;
+    flex: 2;
+    border: 5px solid blue;
+    justify-content: center;
+}
+
+.flex-container2 > .flex-six {
+    font-size: 30px;
+    display: flex;
+    flex: 2;
+    border: 5px solid blue;
+    justify-content: center;
+}

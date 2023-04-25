@@ -1,0 +1,27 @@
+FLEX CONTAINER:
+flex-direction: row-reverse, column-reverse
+
+FLEX ITEMS:
+
+display: flex
+
+flex: short for flex-grow, flex-shrink and flex-basis
+
+justify-content: center, flex-start, flex-end, space-around, space-between, space-evenly
+(NOTE - justify-content aligns on the horizontal axis)
+
+align-items: center, flex-start, flex-end, stretch, baseline
+(NOTE - align-items aligns on the vertical axis)
+
+flex-direction: column and row 
+(NOTE - When flex direction is changed to column, justify-content becomes vertical axis
+and align-items becomes horizontal)
+
+flex-wrap: wrap
+
+flex-direction: column, row
+
+order: default is 0, can be amended to - or + to change order
+
+gap: set at px - places gaps of desired size between flex items
+

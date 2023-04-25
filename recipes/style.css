@@ -1,0 +1,32 @@
+.container {
+    border-style: dotted;
+    border-width: 5px;
+    display: block;
+}
+
+
+.title {
+    font-family: "Arial";
+    text-align: center;
+    color: rgba(85, 76, 84, 0.952);
+    font-weight: bold;
+    font-size: 50px;
+    background-color: grey;
+    padding: 10px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(7, 8, 6); 
+    box-sizing: 100px;   
+}
+
+
+
+.image {
+    height: 400px;
+    width: auto;
+}
+
+#ingr, #steps {
+    font-size: 20px;
+    font-weight: bold;
+}
